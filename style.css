@@ -1,0 +1,33 @@
+body {
+    background-color: antiquewhite;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    transition: 1s;
+    border-radius: 25px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    border-bottom: 5px pink solid;
+    width: 400px;
+    border-right: 5px pink solid;
+    text-align: center;
+}
